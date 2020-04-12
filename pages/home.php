@@ -30,8 +30,8 @@
 <section id="o-que-fazemos">
     <div class="container">
         <h1>O que fazemos?</h1>
-        <div class="row justify-content-center">
-        <div class="col-md-4">
+        <div class="row justify-content-center scroll">
+        <div class="col-4">
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
                     <div class="card-body text-secondary">
                         <h2 class="card-title">Projeto e <br> documentação </h2>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-4">
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
                     <div class="card-body text-secondary">
                         <h2 class="card-title">Desenvolvimento <br> de sistema </h2>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-4">
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
                     <div class="card-body text-secondary">
                         <h2 class="card-title">Website </h2>

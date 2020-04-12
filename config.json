@@ -1,5 +1,5 @@
 {
-    "base_url": "http://buildweb.com.br/",
+    "base_url": "http://localhost/",
     "homepage": "home",
     "pages_dir": "pages",
     "css_dir": "assets/css",
