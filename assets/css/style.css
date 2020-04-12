@@ -108,3 +108,10 @@ header.banner .banner-text h2{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+footer{
+    background:#e4e4e4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#777;
+}
