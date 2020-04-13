@@ -122,6 +122,9 @@ nav .icon-menu{
     font-size: 2em;
     color: white;
 }
+.btn-close-menu{
+    display: none;
+}
 
 @media (max-width: 780px) 
 {
@@ -165,10 +168,34 @@ nav .icon-menu{
         font-size: 1.8em;
     }
 
-   header.banner{
-       height:250px;
-       font-size: 0.7em;
-   }
+    header.banner{
+        height:250px;
+        font-size: 0.7em;
+    }
+
+    nav ul{
+        position: fixed;
+        background: #555;
+        left: 20px;
+        top: 20px;
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+        z-index: 999999;
+        font-size: 2em;
+        overflow-y: auto;
+    }
+    nav ul li{
+        margin-top: 2ex;
+    }
+    ul.open-menu{
+        display: block;
+    }
+    .btn-close-menu{
+        display: block;
+        text-align: right;
+        margin-right:20px;
+    }
+
 
    
 }
