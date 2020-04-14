@@ -1,0 +1,5 @@
+old/
+.docker
+wp-config.php
+docker-compose.yml
+dockerfile
