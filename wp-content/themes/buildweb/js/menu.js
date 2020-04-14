@@ -1,12 +1,14 @@
 $(function() {
 
     $(".icon-menu").click(function(){
-        $(".main-menu").addClass("open-menu")
+        $(".main-menu ul").addClass("open-menu")
         $("body").css("overflow", "hidden")
+        return false
     })
 
     $(".btn-close-menu").click(function(){
-        $(".main-menu").removeClass("open-menu")
+        $(".main-menu ul").removeClass("open-menu")
         $("body").css("overflow", "auto")
+        return false
     })
 });

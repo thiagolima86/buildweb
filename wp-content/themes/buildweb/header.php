@@ -35,13 +35,23 @@
             <a href="#" class="icon-menu">
                 <i class="fas fa-bars"></i>
             </a>
-            <ul class="main-menu">
+
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+					'menu_class' => 'main-menu',
+				)
+			);
+			?>
+            <!-- <ul class="main-menu">
                 <li><a href="#" class="btn-close-menu"><i class="fas fa-times"></i></a></li>
                 <li><a href="#">quem somos</a></li>
                 <li><a href="#">o que fazemos</a></li>
                 <li><a href="#">equipe</a></li>
                 <li><a href="#">contato</a></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </nav>
@@ -72,14 +82,7 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'buildweb' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+			
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
