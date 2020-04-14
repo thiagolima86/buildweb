@@ -94,7 +94,7 @@ if ( ! function_exists( 'buildweb_setup' ) ) :
 		add_theme_support(
 			'custom-logo',
 			array(
-				'height'      => 250,
+				'height'      => 40,
 				'width'       => 250,
 				'flex-width'  => true,
 				'flex-height' => true,
