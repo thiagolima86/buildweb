@@ -14,6 +14,12 @@ h2{
 h2:first-letter{
     font-size: 2.8em;
 }
+h3{
+    margin-left: 15px;
+    color: #201335;
+    font-weight: 300;
+    font-size: 1.5em;
+}
 
 #header{
     background-color: #201335;
@@ -22,6 +28,10 @@ h2:first-letter{
 #menu{
     display: flex;
     justify-content: space-between;
+}
+
+#menu .logo img{
+    width:180px
 }
 
 #menu a{
@@ -47,4 +57,53 @@ h2:first-letter{
 
 #about .content{
     border-left: #201335 10px solid;
+}
+
+#servers{
+    background: url(../images/servers.jpg);
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+#services{
+    background-color: #FAFAFA;
+}
+
+#services .icon{
+    background-color: #201335;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#services ul li{
+    display: flex;
+    margin-top: 15px;
+    border-bottom: 1px solid #BBB;
+}
+
+
+@media only screen and (max-width: 520px) {
+    #menu ul{
+        display: none;
+    }
+    #menu{
+        display: flex;
+        justify-content: center;
+    }
+    #menu .logo img{
+        width:300px
+    }
+
+    #banner img{
+        margin-bottom: -15px;
+        margin-top: 15px;
+    }
+
+    #about {
+        padding-top: 50px;
+    }
 }
