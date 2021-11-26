@@ -87,6 +87,10 @@ h3{
     border-bottom: 1px solid #BBB;
 }
 
+#services ul li figure{
+    flex-shrink: 0;
+}
+
 #footer{
     background-color: #e3e2db;
     color: #808080;
@@ -117,6 +121,11 @@ h3{
     #footer .logo-white{
         width: 300px;
         margin-right: auto;
+    }
+
+    #services ul{
+        padding-left: 0;
+        font-size: 0.8em;
     }
 }
 
