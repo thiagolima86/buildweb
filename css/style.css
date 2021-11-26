@@ -63,7 +63,7 @@ h3{
     background: url(../images/servers.jpg);
     background-size: 100% auto;
     background-attachment: fixed;
-    backface-visibility hidden;
+    backface-visibility: hidden;
     height: 450px;
 }
 
@@ -127,6 +127,10 @@ h3{
     #services ul{
         padding-left: 0;
         font-size: 0.8em;
+    }
+
+    #servers{
+        background-attachment: scroll;
     }
 }
 
