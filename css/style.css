@@ -68,6 +68,8 @@ h3{
 
 #services{
     background-color: #FAFAFA;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #services .icon{
@@ -85,6 +87,38 @@ h3{
     border-bottom: 1px solid #BBB;
 }
 
+#footer{
+    background-color: #e3e2db;
+    color: #808080;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer .logo-white{
+    width: 200px;
+    margin-left: auto;
+    display: block;
+}
+
+#copyright{
+    background-color: #201335;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 575px) {
+    #footer{
+        text-align: center;
+    }
+
+    #footer .logo-white{
+        width: 300px;
+        margin-right: auto;
+    }
+}
 
 @media only screen and (max-width: 520px) {
     #menu ul{
